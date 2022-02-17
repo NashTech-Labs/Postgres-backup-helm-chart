@@ -1,0 +1,9 @@
+apiVersion: v2
+name: postgres-backup
+version: 1.0.0
+appVersion: 1.0.0
+type: application
+keywords:
+  - "postgres"
+  - "backup"
+description: Backup the postgres and compress it to tarball and copy it to GCS bucket
