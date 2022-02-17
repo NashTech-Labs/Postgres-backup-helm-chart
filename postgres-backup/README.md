@@ -2,6 +2,15 @@
 
 This chart creates a cronjob which backups the database as tarball and uploads it to Google Cloud Storage.
 
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Introduction](#introduction)
+* [Parameters](#parameters)
+    * [Cronjob Parameters](#cronjob-parameters)
+    * [Postgres and GCS Parameters](#postgres-and-gcs-parameters)
+    * [Workload Identity and Service account parameters](#workload-identity-and-service-account-parameters)
+* [Creating Workload Identity](#creating-workload-identity)
+
 ## Prerequisites
 
 * Kuberentes 1.19+
